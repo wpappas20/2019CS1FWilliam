@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+body{
+    background-color: purple;
+}
+
+#outer{
+    width: 150px;
+    height: 400px;
+    background-color: green;
+    border: 4px solid #fff;
+    border-radius: 40px;
+    position: relative;
+}
+
+#inner{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    
+
+#box{
+    width: 400px;
+    height: 250px;                                                      
+    
+}
+
+#finishLine{
+    width: 40px;
+    height: 120px;
+    font-size: 0;
+    position: absolute;
+    left: 210px;
+    top: 300px;
+}
+
+.checker{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.black{
+    background-color: red;
+}
+
+.white{
+    background-color: blue;
+}
+
+.car{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#car1{
+    background:url('WeirdCar.png') no-repeat center center;
+    left: 100px;
+    top: 300px;
+    background-size:contain;
+}
+
+#car2{
+    background:url('WeenieCar.png') no-repeat center center;
+    left: 100px;
+    top: 300px;
+    background-size:contain;
+}
