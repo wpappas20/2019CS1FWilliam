@@ -1,49 +1,64 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Patua One';
-}
-
+html,
 body {
-	background-color: #97aabd;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	padding: 0px;
-	margin: 10px auto;
-	
-	background-color: #272727 ;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: gainsboro;
 }
 
-table tr td {
-	width: 80px;
-	height: 80px;
-	border: 1px solid rgba(255,255,255,.05);
-	font-size: 30px;
-	text-align: center;
+.title {
+    font-size: 42px;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
-table tr td:hover {
-	background: #2c3531;
-	cursor: pointer;
+.flex-container {
+    display: flex;
 }
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.board-container {
+    height: 100%;
+    width: 100%
+}
+
+.board {
+    width: 618px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    /* add below this second */
+    border: 3px solid mediumslateblue;
+    font-size: 56px;
+}
+
+.square:hover {
+    background: floralwhite;
+    cursor: pointer;
+}
+
 .winner {
-	width: 240px;
-	height: 140px;
-	margin: 10px auto;
-	font-size: 60px;
-	text-align: center;
+    display: none;
+    padding: 10px;
+    font-size: 32px;
+    color: royalblue;
 }
-.winner span {
-	font-size: 40px;
-	display: block;
+
+.reset {
+    padding: 10px;
+    margin: 10px
 }
-#reload {
-	width: 240px;
-	height: 100px;
-	margin: 10px auto;
-	display: block;
-	border: none;
-	background-color: #272727;
-	font-size: 40px;
