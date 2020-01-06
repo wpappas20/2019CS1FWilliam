@@ -41,7 +41,6 @@ body {
 .square {
     width: 200px;
     height: 200px;
-    /* add below this second */
     border: 3px solid mediumslateblue;
     font-size: 56px;
 }
