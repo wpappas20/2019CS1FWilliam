@@ -41,7 +41,7 @@ reset.on('click', (e) => {
 function declareWinner(winner) {
     winnerContainer.css('display', "block");
     reset.css('display', 'block');
-    winner = winner === player1 ? 'Ryan' : 'India';
+    winner = winner === player1 ? 'Billy' : 'Will';
     winnerContainer.html(winner + " Wins!");
 }
 
