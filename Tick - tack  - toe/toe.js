@@ -14,11 +14,11 @@ sqr.on('click', (e) => {
     movesMade++;
     if (currentTurn % 2 === 1) {
         event.target.innerHTML = player1;
-        event.target.style.color = "gray";
+        event.target.style.color = "purple";
         currentTurn++;
     } else {
         event.target.innerHTML = player2;
-        event.target.style.color = "red";
+        event.target.style.color = "blue";
         currentTurn--;
     }
 
@@ -41,7 +41,7 @@ reset.on('click', (e) => {
 function declareWinner(winner) {
     winnerContainer.css('display', "block");
     reset.css('display', 'block');
-    winner = winner === player1 ? 'Ryan' : 'India';
+    winner = winner === player1 ? 'Billy' : 'Trevor';
     winnerContainer.html(winner + " Wins!");
 }
 
