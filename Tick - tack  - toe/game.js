@@ -1,9 +1,7 @@
-//Like the file you showed me, you will need a variable to keep track of the clicks
-//This variable will increase with each click.
 
 $(".square").click(
     function(){
-        if(/* the number of clicks is odd*/){
+        if(){
             $(this).css("background-color","red");
         }
         else{
@@ -11,5 +9,4 @@ $(".square").click(
         }
     }
 
-    //increase your click counter
 );
